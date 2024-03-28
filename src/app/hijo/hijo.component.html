@@ -1,0 +1,9 @@
+<h2>Hola mundo desde el hijo en Angular</h2>
+<!-- <h3>Este es el mensaje que envia mi padre:</h3>
+<span>{{recibeHijo}}</span> -->
+
+<div>
+    <label for="entrada">Escribe un mensaje para el padre: </label>
+    <input type="text" name="entrada" id="entrada" [(ngModel)]="mensaje">
+    <button type="button" (click)="enviarMensaje()">Enviar</button>
+</div>

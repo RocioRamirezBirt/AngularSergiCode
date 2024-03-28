@@ -1,0 +1,12 @@
+<h1>Hola mundo desde el padre en Angular</h1>
+<br>
+<h2>Contador: <span>{{ValorContador}}</span></h2>
+
+<button (click)="incrementar()">Incrementar</button>
+<button (click)="decrementar()">Decrementar</button>
+
+
+<!-- <app-hijo [recibeHijo]="mensajePadre" ></app-hijo> -->
+<app-hijo (mensajeDesdeHijo)="recibirMensaje($event)" ></app-hijo>
+
+<h5>El mensaje recibido desde el hijo es: {{reciboMensaje}} </h5>

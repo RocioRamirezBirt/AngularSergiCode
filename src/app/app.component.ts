@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'curso-sergiCode';
+  subtitle = " es lo primero que escribimos"
 }
